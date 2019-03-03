@@ -1,2 +1,7 @@
 # kingso
-源代码拷贝源：https://github.com/sdgdsffdsfff/kingso
+Taobao kingso
+淘宝的开源搜索，kingso。
+
+	#include <unistd.h>
+		usleep
+		getpid
