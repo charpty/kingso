@@ -1,0 +1,838 @@
+[2019-03-03 07:04:28] [Server.cpp:344:start()] [INFO] :: startting server(0x2349440) by `searcher_server_single.cfg'...
+[2019-03-03 07:04:28] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 07:04:28] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 07:04:28] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 07:04:28] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 07:04:28] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:/root/kingso/src/index_lib/src/profile
+[2019-03-03 07:04:28] [ProfileManager.cpp:1441:loadProfileDesc()] [ERROR] :: INDEXLIB: ProfileManager load error, open profile.desc failed!
+[2019-03-03 07:04:28] [ProfileManager.cpp:828:load()] [ERROR] :: INDEXLIB: ProfileManager load error, load profile description file failed!
+[2019-03-03 07:04:28] [IndexLib.cpp:64:initProfile()] [ERROR] :: load profile failed! path:/root/kingso/src/index_lib/src/profile
+[2019-03-03 07:04:28] [SearcherServer.cpp:560:initilize()] [ERROR] :: init index lib failed!
+[2019-03-03 07:04:28] [Server.cpp:135:initWorkerFactory()] [ERROR] :: init worker factory by `searcher_server_single.cfg' failed(-1).
+[2019-03-03 07:04:28] [Server.cpp:444:start()] [ERROR] :: init worker by `searcher_server_single.cfg' error.
+[2019-03-03 07:32:43] [Server.cpp:344:start()] [INFO] :: startting server(0x1ce7440) by `searcher_server_single.cfg'...
+[2019-03-03 07:32:43] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 07:32:43] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 07:32:43] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 07:32:43] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 07:32:43] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 07:32:43] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 07:32:43] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 07:32:43] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 07:32:43] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 07:32:43] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:etc/wrapper.dict
+[2019-03-03 07:32:43] [DocIdManager.cpp:495:loadDict()] [ERROR] :: open file etc/wrapper.dict/docId.dict failed. errno 20
+[2019-03-03 07:32:43] [IndexLib.cpp:104:initIdDict()] [ERROR] :: load nid->docId dict and deleteMap failed! path:etc/wrapper.dict
+[2019-03-03 07:32:43] [SearcherServer.cpp:560:initilize()] [ERROR] :: init index lib failed!
+[2019-03-03 07:32:43] [Server.cpp:135:initWorkerFactory()] [ERROR] :: init worker factory by `searcher_server_single.cfg' failed(-1).
+[2019-03-03 07:32:43] [Server.cpp:444:start()] [ERROR] :: init worker by `searcher_server_single.cfg' error.
+[2019-03-03 07:35:04] [Server.cpp:344:start()] [INFO] :: startting server(0x26bc440) by `searcher_server_single.cfg'...
+[2019-03-03 07:35:04] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 07:35:04] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 07:35:04] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 07:35:04] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 07:35:04] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 07:35:04] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 07:35:04] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 07:35:04] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 07:35:04] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 07:35:04] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 07:35:04] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 07:35:04] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 07:35:04] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=24, use time=0
+[2019-03-03 07:35:04] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 07:35:04] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 07:35:04] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 07:35:04] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 07:35:04] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 07:35:04] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 07:35:04] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 07:35:04] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 07:35:04] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 07:35:04] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 07:35:04] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 07:35:04] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 07:35:04] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 07:35:04] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 07:35:04] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 07:35:04] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 07:35:04] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 07:35:04] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 07:35:04] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 07:35:04] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 07:35:04] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 07:35:04] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 07:35:04] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 07:35:04] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 07:35:04] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 07:35:04] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 07:35:04] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 07:35:04] [SearcherServer.cpp:594:initilize()] [ERROR] :: sort config file is error!
+[2019-03-03 07:35:04] [Server.cpp:135:initWorkerFactory()] [ERROR] :: init worker factory by `searcher_server_single.cfg' failed(-1).
+[2019-03-03 07:35:04] [Server.cpp:444:start()] [ERROR] :: init worker by `searcher_server_single.cfg' error.
+[2019-03-03 07:36:35] [Server.cpp:344:start()] [INFO] :: startting server(0x2a62440) by `searcher_server_single.cfg'...
+[2019-03-03 07:36:35] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 07:36:35] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 07:36:35] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 07:36:35] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 07:36:35] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 07:36:35] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 07:36:35] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 07:36:35] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 07:36:35] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 07:36:35] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 07:36:35] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 07:36:35] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 07:36:35] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=24, use time=0
+[2019-03-03 07:36:35] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 07:36:35] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 07:36:35] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 07:36:35] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 07:36:35] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 07:36:35] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 07:36:35] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 07:36:35] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 07:36:35] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 07:36:35] [IndexIncManager.cpp:208:open()] [INFO] :: sync flag is false, release old share memory!
+[2019-03-03 07:36:35] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 07:36:35] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 07:36:35] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 07:36:35] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 07:36:35] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 07:36:35] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 07:36:35] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 07:36:35] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 07:36:35] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 07:36:35] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 07:36:35] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 07:36:35] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 07:36:35] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 07:36:35] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 07:36:35] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 07:36:35] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 07:36:35] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 07:36:35] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 07:36:35] [SearcherServer.cpp:612:initilize()] [ERROR] :: update config path is null
+[2019-03-03 07:36:35] [Server.cpp:449:start()] [INFO] :: startting work threads[15] and dispatcher...
+[2019-03-03 07:36:35] [Server.cpp:461:start()] [INFO] :: startting services...
+[2019-03-03 07:36:35] [Server.cpp:493:start()] [INFO] :: startting service[http::7722], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 07:36:35] [Server.cpp:493:start()] [INFO] :: startting service[tcp::7711], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 07:36:35] [Server.cpp:513:start()] [INFO] :: 2 services startted.
+[2019-03-03 07:36:35] [Server.cpp:516:start()] [INFO] :: initializing clustermap client...
+[2019-03-03 07:36:35] [Server.cpp:247:initCMClient()] [WARN] :: no invalid clustermap configure.
+[2019-03-03 07:36:35] [Server.cpp:520:start()] [ERROR] :: initialize clustermap client failed[-1].
+[2019-03-03 07:38:31] [Server.cpp:344:start()] [INFO] :: startting server(0x23f3440) by `searcher_server_single.cfg'...
+[2019-03-03 07:38:31] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 07:38:31] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 07:38:31] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 07:38:31] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 07:38:31] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 07:38:31] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 07:38:31] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 07:38:31] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 07:38:31] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 07:38:31] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 07:38:31] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 07:38:31] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 07:38:31] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=24, use time=0
+[2019-03-03 07:38:31] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 07:38:31] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 07:38:31] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 07:38:31] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 07:38:31] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 07:38:31] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 07:38:31] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 07:38:31] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 07:38:31] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 07:38:31] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 07:38:31] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 07:38:31] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 07:38:31] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 07:38:31] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 07:38:31] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 07:38:31] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 07:38:31] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 07:38:31] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 07:38:31] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 07:38:31] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 07:38:31] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 07:38:31] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 07:38:31] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 07:38:31] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 07:38:31] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 07:38:31] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 07:38:31] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 07:38:31] [SearcherServer.cpp:612:initilize()] [ERROR] :: update config path is null
+[2019-03-03 07:38:31] [Server.cpp:449:start()] [INFO] :: startting work threads[15] and dispatcher...
+[2019-03-03 07:38:31] [Server.cpp:461:start()] [INFO] :: startting services...
+[2019-03-03 07:38:31] [Server.cpp:493:start()] [INFO] :: startting service[http::7722], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 07:38:31] [Server.cpp:493:start()] [INFO] :: startting service[tcp::7711], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 07:38:31] [Server.cpp:513:start()] [INFO] :: 2 services startted.
+[2019-03-03 07:38:31] [Server.cpp:516:start()] [INFO] :: initializing clustermap client...
+[2019-03-03 07:38:31] [CMTree.cpp:1941:travelTree()] [INFO] :: <clustermap>
+[2019-03-03 07:38:31] [CMTree.cpp:1941:travelTree()] [INFO] :: <m1>
+[2019-03-03 07:38:31] [CMTree.cpp:1941:travelTree()] [INFO] :: <c1>
+[2019-03-03 07:38:31] [CMTree.cpp:1947:travelTree()] [INFO] :: </c1>
+[2019-03-03 07:38:31] [CMTree.cpp:1947:travelTree()] [INFO] :: </m1>
+[2019-03-03 07:38:31] [CMTree.cpp:1947:travelTree()] [INFO] :: </clustermap>
+[2019-03-03 07:38:31] [CMTree.cpp:1617:travelTree()] [INFO] :: <c1>
+[2019-03-03 07:38:31] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=1 relationid=0, ip=127.0.0.1, port=7711 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 07:38:31] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=0 relationid=0, ip=127.0.0.1, port=6611 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 07:38:31] [CMTree.cpp:1617:travelTree()] [INFO] :: <m1>
+[2019-03-03 07:38:31] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=2 relationid=1, ip=127.0.0.1, port=8822 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 07:38:31] [Server.cpp:269:initCMClient()] [INFO] :: Initialize clulstermap client succeed.
+[2019-03-03 07:38:31] [Server.cpp:526:start()] [INFO] :: initialized clustermap client.
+[2019-03-03 07:38:31] [Server.cpp:530:start()] [INFO] :: startting ANET...
+[2019-03-03 07:38:31] [Server.cpp:546:start()] [INFO] :: register clustermap client success.
+[2019-03-03 07:38:31] [Server.cpp:570:start()] [INFO] :: server(0x23f3440) has been startted!
+[2019-03-03 07:48:25] [blender/QueryParameterClassifier.cpp:71:doQuerySplit()] [WARN] :: QUERYPARSER: can't find query prefix, invalid query format.
+[2019-03-03 07:48:25] [blender/QueryParameterClassifier.cpp:42:doProcess()] [WARN] :: QUERYPARSER: do query spliting failed.
+[2019-03-03 07:48:25] [blender/QueryRewriter.cpp:366:doRewrite()] [WARN] :: QUERYPARSER: do query classify failed.
+[2019-03-03 07:48:25] [SearcherServer.cpp:221:run()] [WARN] :: qrewriter.doRewrite function error. query is a=1
+[2019-03-03 07:48:35] [blender/QueryParameterClassifier.cpp:71:doQuerySplit()] [WARN] :: QUERYPARSER: can't find query prefix, invalid query format.
+[2019-03-03 07:48:35] [blender/QueryParameterClassifier.cpp:42:doProcess()] [WARN] :: QUERYPARSER: do query spliting failed.
+[2019-03-03 07:48:35] [blender/QueryRewriter.cpp:366:doRewrite()] [WARN] :: QUERYPARSER: do query classify failed.
+[2019-03-03 07:48:35] [SearcherServer.cpp:221:run()] [WARN] :: qrewriter.doRewrite function error. query is a=1
+[2019-03-03 07:49:43] [blender/QueryParameterClassifier.cpp:71:doQuerySplit()] [WARN] :: QUERYPARSER: can't find query prefix, invalid query format.
+[2019-03-03 07:49:43] [blender/QueryParameterClassifier.cpp:42:doProcess()] [WARN] :: QUERYPARSER: do query spliting failed.
+[2019-03-03 07:49:43] [blender/QueryRewriter.cpp:366:doRewrite()] [WARN] :: QUERYPARSER: do query classify failed.
+[2019-03-03 07:49:43] [SearcherServer.cpp:221:run()] [WARN] :: qrewriter.doRewrite function error. query is field_1=mp3
+[2019-03-03 07:49:57] [blender/QueryParameterClassifier.cpp:71:doQuerySplit()] [WARN] :: QUERYPARSER: can't find query prefix, invalid query format.
+[2019-03-03 07:49:57] [blender/QueryParameterClassifier.cpp:42:doProcess()] [WARN] :: QUERYPARSER: do query spliting failed.
+[2019-03-03 07:49:57] [blender/QueryRewriter.cpp:366:doRewrite()] [WARN] :: QUERYPARSER: do query classify failed.
+[2019-03-03 07:49:57] [SearcherServer.cpp:221:run()] [WARN] :: qrewriter.doRewrite function error. query is nid=222
+[2019-03-03 08:20:47] [blender/QueryParameterClassifier.cpp:71:doQuerySplit()] [WARN] :: QUERYPARSER: can't find query prefix, invalid query format.
+[2019-03-03 08:20:47] [blender/QueryParameterClassifier.cpp:42:doProcess()] [WARN] :: QUERYPARSER: do query spliting failed.
+[2019-03-03 08:20:47] [blender/QueryRewriter.cpp:366:doRewrite()] [WARN] :: QUERYPARSER: do query classify failed.
+[2019-03-03 08:20:47] [SearcherServer.cpp:221:run()] [WARN] :: qrewriter.doRewrite function error. query is nid=222
+[2019-03-03 08:20:52] [blender/QueryParameterClassifier.cpp:71:doQuerySplit()] [WARN] :: QUERYPARSER: can't find query prefix, invalid query format.
+[2019-03-03 08:20:52] [blender/QueryParameterClassifier.cpp:42:doProcess()] [WARN] :: QUERYPARSER: do query spliting failed.
+[2019-03-03 08:20:52] [blender/QueryRewriter.cpp:366:doRewrite()] [WARN] :: QUERYPARSER: do query classify failed.
+[2019-03-03 08:20:52] [SearcherServer.cpp:221:run()] [WARN] :: qrewriter.doRewrite function error. query is nid=222
+[2019-03-03 08:29:19] [searcher/QueryParser.cpp:952:_qp_query_info_parse()] [INFO] :: tree->leaf_count==0, return!
+[2019-03-03 08:29:19] [searcher/QueryParser.cpp:1026:doParse()] [INFO] :: _qp_query_info_parse error, return!
+[2019-03-03 08:29:19] [SearcherServer.cpp:236:run()] [WARN] :: SEARCHER: queryparser doParse function error. query is auction?search=a=1#filter=a=1#statistic=a=1#sort=a=1#other=a=1
+[2019-03-03 08:35:34] [Server.cpp:668:stop()] [INFO] :: server(0x23f3440) has been stopped.
+[2019-03-03 08:35:36] [Server.cpp:344:start()] [INFO] :: startting server(0x2c29440) by `searcher_server_single.cfg'...
+[2019-03-03 08:35:36] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 08:35:36] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 08:35:36] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 08:35:36] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 08:35:36] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 08:35:36] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 08:35:36] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 08:35:36] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 08:35:36] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 08:35:36] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 08:35:36] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 08:35:36] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 08:35:36] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=16, use time=0
+[2019-03-03 08:35:36] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 08:35:36] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 08:35:36] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 08:35:36] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 08:35:36] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 08:35:36] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 08:35:36] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 08:35:36] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 08:35:36] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 08:35:36] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 08:35:36] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 08:35:36] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 08:35:36] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 08:35:36] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 08:35:36] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 08:35:36] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 08:35:36] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 08:35:36] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 08:35:36] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 08:35:36] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 08:35:36] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 08:35:36] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 08:35:36] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 08:35:36] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 08:35:36] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 08:35:36] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 08:35:36] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 08:35:36] [SearcherServer.cpp:612:initilize()] [ERROR] :: update config path is null
+[2019-03-03 08:35:36] [Server.cpp:449:start()] [INFO] :: startting work threads[15] and dispatcher...
+[2019-03-03 08:35:36] [Server.cpp:461:start()] [INFO] :: startting services...
+[2019-03-03 08:35:36] [Server.cpp:493:start()] [INFO] :: startting service[http::7722], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 08:35:36] [Server.cpp:493:start()] [INFO] :: startting service[tcp::7711], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 08:35:36] [Server.cpp:513:start()] [INFO] :: 2 services startted.
+[2019-03-03 08:35:36] [Server.cpp:516:start()] [INFO] :: initializing clustermap client...
+[2019-03-03 08:35:36] [CMTree.cpp:1941:travelTree()] [INFO] :: <clustermap>
+[2019-03-03 08:35:36] [CMTree.cpp:1941:travelTree()] [INFO] :: <m1>
+[2019-03-03 08:35:36] [CMTree.cpp:1941:travelTree()] [INFO] :: <c1>
+[2019-03-03 08:35:36] [CMTree.cpp:1947:travelTree()] [INFO] :: </c1>
+[2019-03-03 08:35:36] [CMTree.cpp:1947:travelTree()] [INFO] :: </m1>
+[2019-03-03 08:35:36] [CMTree.cpp:1947:travelTree()] [INFO] :: </clustermap>
+[2019-03-03 08:35:36] [CMTree.cpp:1617:travelTree()] [INFO] :: <c1>
+[2019-03-03 08:35:36] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=1 relationid=0, ip=127.0.0.1, port=7711 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 08:35:36] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=0 relationid=0, ip=127.0.0.1, port=6611 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 08:35:36] [CMTree.cpp:1617:travelTree()] [INFO] :: <m1>
+[2019-03-03 08:35:36] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=2 relationid=1, ip=127.0.0.1, port=8822 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 08:35:36] [Server.cpp:269:initCMClient()] [INFO] :: Initialize clulstermap client succeed.
+[2019-03-03 08:35:36] [Server.cpp:526:start()] [INFO] :: initialized clustermap client.
+[2019-03-03 08:35:36] [Server.cpp:530:start()] [INFO] :: startting ANET...
+[2019-03-03 08:35:36] [Server.cpp:546:start()] [INFO] :: register clustermap client success.
+[2019-03-03 08:35:36] [Server.cpp:570:start()] [INFO] :: server(0x2c29440) has been startted!
+[2019-03-03 08:35:59] [searcher/QueryParser.cpp:952:_qp_query_info_parse()] [INFO] :: tree->leaf_count==0, return!
+[2019-03-03 08:35:59] [searcher/QueryParser.cpp:1026:doParse()] [INFO] :: _qp_query_info_parse error, return!
+[2019-03-03 08:35:59] [SearcherServer.cpp:236:run()] [WARN] :: SEARCHER: queryparser doParse function error. query is auction?search=a=1#filter=a=1#statistic=a=1#sort=a=1#other=a=1
+[2019-03-03 08:38:06] [searcher/QueryParser.cpp:952:_qp_query_info_parse()] [INFO] :: tree->leaf_count==0, return!
+[2019-03-03 08:38:06] [searcher/QueryParser.cpp:1026:doParse()] [INFO] :: _qp_query_info_parse error, return!
+[2019-03-03 08:38:06] [SearcherServer.cpp:236:run()] [WARN] :: SEARCHER: queryparser doParse function error. query is auction?search=a=1#filter=a=1#statistic=a=1#sort=a=1#other=a=1
+[2019-03-03 08:41:19] [Server.cpp:668:stop()] [INFO] :: server(0x2c29440) has been stopped.
+[2019-03-03 08:46:06] [Server.cpp:344:start()] [INFO] :: startting server(0x3017440) by `searcher_server_single.cfg'...
+[2019-03-03 08:46:06] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 08:46:06] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 08:46:06] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 08:46:06] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 08:46:06] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 08:46:06] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 08:46:06] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 08:46:06] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 08:46:06] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 08:46:06] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 08:46:06] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 08:46:06] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 08:46:06] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=16, use time=0
+[2019-03-03 08:46:06] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 08:46:06] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 08:46:06] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 08:46:06] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 08:46:06] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 08:46:06] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 08:46:06] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 08:46:06] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 08:46:06] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 08:46:06] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 08:46:06] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 08:46:06] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 08:46:06] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 08:46:06] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 08:46:06] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 08:46:06] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 08:46:06] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 08:46:06] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 08:46:06] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 08:46:06] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 08:46:06] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 08:46:06] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 08:46:06] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 08:46:06] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 08:46:06] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 08:46:06] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 08:46:06] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 08:46:06] [SearcherServer.cpp:612:initilize()] [ERROR] :: update config path is null
+[2019-03-03 08:46:06] [detail.cc:295:load_di_index()] [ERROR] :: fopen index error, return![path:rundata/detail/detail.idx]
+[2019-03-03 08:46:06] [detail.cc:506:di_detail_init()] [ERROR] :: load_di_index error, return!
+[2019-03-03 08:46:06] [SearcherServer.cpp:642:initilize()] [ERROR] :: di_detail_init failed!
+[2019-03-03 08:46:06] [Server.cpp:135:initWorkerFactory()] [ERROR] :: init worker factory by `searcher_server_single.cfg' failed(-1).
+[2019-03-03 08:46:06] [Server.cpp:444:start()] [ERROR] :: init worker by `searcher_server_single.cfg' error.
+[2019-03-03 08:48:49] [Server.cpp:344:start()] [INFO] :: startting server(0x1fc0440) by `searcher_server_single.cfg'...
+[2019-03-03 08:48:49] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 08:48:49] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 08:48:49] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 08:48:49] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 08:48:49] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 08:48:49] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 08:48:49] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 08:48:49] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 08:48:49] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 08:48:49] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 08:48:49] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 08:48:49] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 08:48:49] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=16, use time=0
+[2019-03-03 08:48:49] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 08:48:49] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 08:48:49] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 08:48:49] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 08:48:49] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 08:48:49] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 08:48:49] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 08:48:49] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 08:48:49] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 08:48:49] [IndexIncManager.cpp:208:open()] [INFO] :: sync flag is false, release old share memory!
+[2019-03-03 08:48:49] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 08:48:49] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 08:48:49] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 08:48:49] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 08:48:49] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 08:48:49] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 08:48:49] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 08:48:49] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 08:48:49] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 08:48:49] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 08:48:49] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 08:48:49] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 08:48:49] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 08:48:49] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 08:48:49] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 08:48:49] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 08:48:49] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 08:48:49] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 08:48:49] [SearcherServer.cpp:612:initilize()] [ERROR] :: update config path is null
+[2019-03-03 08:48:49] [detail.cc:295:load_di_index()] [ERROR] :: fopen index error, return![path:rundata/detail/detail.idx]
+[2019-03-03 08:48:49] [detail.cc:506:di_detail_init()] [ERROR] :: load_di_index error, return!
+[2019-03-03 08:48:49] [SearcherServer.cpp:642:initilize()] [ERROR] :: di_detail_init failed!
+[2019-03-03 08:48:49] [Server.cpp:135:initWorkerFactory()] [ERROR] :: init worker factory by `searcher_server_single.cfg' failed(-1).
+[2019-03-03 08:48:49] [Server.cpp:444:start()] [ERROR] :: init worker by `searcher_server_single.cfg' error.
+[2019-03-03 08:50:53] [Server.cpp:344:start()] [INFO] :: startting server(0x328b440) by `searcher_server_single.cfg'...
+[2019-03-03 08:50:53] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 08:50:53] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 08:50:53] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 08:50:53] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 08:50:53] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 08:50:53] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 08:50:53] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 08:50:53] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 08:50:53] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 08:50:53] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 08:50:53] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 08:50:53] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 08:50:53] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=16, use time=0
+[2019-03-03 08:50:53] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 08:50:53] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 08:50:53] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 08:50:53] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 08:50:53] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 08:50:53] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 08:50:53] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 08:50:53] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 08:50:53] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 08:50:53] [IndexIncManager.cpp:208:open()] [INFO] :: sync flag is false, release old share memory!
+[2019-03-03 08:50:53] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 08:50:53] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 08:50:53] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 08:50:53] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 08:50:53] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 08:50:53] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 08:50:53] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 08:50:53] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 08:50:53] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 08:50:53] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 08:50:53] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 08:50:53] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 08:50:53] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 08:50:53] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 08:50:53] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 08:50:53] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 08:50:53] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 08:50:53] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 08:50:53] [SearcherServer.cpp:612:initilize()] [ERROR] :: update config path is null
+[2019-03-03 08:50:53] [Server.cpp:449:start()] [INFO] :: startting work threads[15] and dispatcher...
+[2019-03-03 08:50:53] [Server.cpp:461:start()] [INFO] :: startting services...
+[2019-03-03 08:50:53] [Server.cpp:493:start()] [INFO] :: startting service[http::7722], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 08:50:53] [Server.cpp:493:start()] [INFO] :: startting service[tcp::7711], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 08:50:53] [Server.cpp:513:start()] [INFO] :: 2 services startted.
+[2019-03-03 08:50:53] [Server.cpp:516:start()] [INFO] :: initializing clustermap client...
+[2019-03-03 08:50:53] [CMTree.cpp:1941:travelTree()] [INFO] :: <clustermap>
+[2019-03-03 08:50:53] [CMTree.cpp:1941:travelTree()] [INFO] :: <m1>
+[2019-03-03 08:50:53] [CMTree.cpp:1941:travelTree()] [INFO] :: <c1>
+[2019-03-03 08:50:53] [CMTree.cpp:1947:travelTree()] [INFO] :: </c1>
+[2019-03-03 08:50:53] [CMTree.cpp:1947:travelTree()] [INFO] :: </m1>
+[2019-03-03 08:50:53] [CMTree.cpp:1947:travelTree()] [INFO] :: </clustermap>
+[2019-03-03 08:50:53] [CMTree.cpp:1617:travelTree()] [INFO] :: <c1>
+[2019-03-03 08:50:53] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=1 relationid=0, ip=127.0.0.1, port=7711 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 08:50:53] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=0 relationid=0, ip=127.0.0.1, port=6611 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 08:50:53] [CMTree.cpp:1617:travelTree()] [INFO] :: <m1>
+[2019-03-03 08:50:53] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=2 relationid=1, ip=127.0.0.1, port=8822 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 08:50:53] [Server.cpp:269:initCMClient()] [INFO] :: Initialize clulstermap client succeed.
+[2019-03-03 08:50:53] [Server.cpp:526:start()] [INFO] :: initialized clustermap client.
+[2019-03-03 08:50:53] [Server.cpp:530:start()] [INFO] :: startting ANET...
+[2019-03-03 08:50:53] [Server.cpp:546:start()] [INFO] :: register clustermap client success.
+[2019-03-03 08:50:53] [Server.cpp:570:start()] [INFO] :: server(0x328b440) has been startted!
+[2019-03-03 08:51:32] [Server.cpp:668:stop()] [INFO] :: server(0x328b440) has been stopped.
+[2019-03-03 08:57:13] [Server.cpp:344:start()] [INFO] :: startting server(0x2e73440) by `searcher_server_single.cfg'...
+[2019-03-03 08:57:13] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 08:57:13] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 08:57:13] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 08:57:13] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 08:57:13] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 08:57:13] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 08:57:13] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 08:57:13] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 08:57:13] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 08:57:13] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 08:57:13] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 08:57:13] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 08:57:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=16, use time=0
+[2019-03-03 08:57:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 08:57:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 08:57:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 08:57:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 08:57:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 08:57:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 08:57:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 08:57:13] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 08:57:13] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 08:57:13] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 08:57:13] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 08:57:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 08:57:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 08:57:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 08:57:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 08:57:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 08:57:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 08:57:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 08:57:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 08:57:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 08:57:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 08:57:13] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 08:57:13] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 08:57:13] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 08:57:13] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 08:57:13] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 08:57:13] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 08:57:13] [Config.cpp:69:init()] [ERROR] :: mkdir /whereami/update_rundata/updater_dispatcher_bak error, return!
+[2019-03-03 08:57:13] [UpdateProcessor.cpp:100:init()] [ERROR] :: init config etc/update_server.cfg failed
+[2019-03-03 08:57:13] [Updater.cpp:56:init()] [ERROR] :: init config etc/update_server.cfg failed
+[2019-03-03 08:57:13] [IndexUpdater.cpp:33:init()] [ERROR] :: init failed
+[2019-03-03 08:57:13] [SearcherServer.cpp:603:initilize()] [ERROR] :: init IndexUpdater failed! errno=-1
+[2019-03-03 08:57:13] [detail.cc:295:load_di_index()] [ERROR] :: fopen index error, return![path:rundata/detail/detail.idx]
+[2019-03-03 08:57:13] [detail.cc:506:di_detail_init()] [ERROR] :: load_di_index error, return!
+[2019-03-03 08:57:13] [SearcherServer.cpp:642:initilize()] [ERROR] :: di_detail_init failed!
+[2019-03-03 08:57:13] [Server.cpp:135:initWorkerFactory()] [ERROR] :: init worker factory by `searcher_server_single.cfg' failed(-1).
+[2019-03-03 08:57:13] [Server.cpp:444:start()] [ERROR] :: init worker by `searcher_server_single.cfg' error.
+[2019-03-03 09:00:47] [Server.cpp:344:start()] [INFO] :: startting server(0x2762440) by `searcher_server_single.cfg'...
+[2019-03-03 09:00:47] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 09:00:47] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 09:00:47] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 09:00:47] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 09:00:47] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 09:00:47] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 09:00:47] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 09:00:47] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 09:00:47] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 09:00:47] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 09:00:47] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 09:00:47] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 09:00:47] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=16, use time=0
+[2019-03-03 09:00:47] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 09:00:47] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 09:00:47] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 09:00:47] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 09:00:47] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 09:00:47] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 09:00:47] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 09:00:47] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 09:00:47] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 09:00:47] [IndexIncManager.cpp:208:open()] [INFO] :: sync flag is false, release old share memory!
+[2019-03-03 09:00:47] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 09:00:47] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 09:00:47] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 09:00:47] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 09:00:47] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 09:00:47] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 09:00:47] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 09:00:47] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 09:00:47] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 09:00:47] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 09:00:47] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 09:00:47] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 09:00:47] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 09:00:47] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 09:00:47] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 09:00:47] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 09:00:47] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 09:00:47] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 09:00:47] [SearcherServer.cpp:612:initilize()] [ERROR] :: update config path is null
+[2019-03-03 09:00:47] [detail.cc:295:load_di_index()] [ERROR] :: fopen index error, return![path:rundata/detail/detail.idx]
+[2019-03-03 09:00:47] [detail.cc:506:di_detail_init()] [ERROR] :: load_di_index error, return!
+[2019-03-03 09:00:47] [SearcherServer.cpp:642:initilize()] [ERROR] :: di_detail_init failed!
+[2019-03-03 09:00:47] [Server.cpp:135:initWorkerFactory()] [ERROR] :: init worker factory by `searcher_server_single.cfg' failed(-1).
+[2019-03-03 09:00:47] [Server.cpp:444:start()] [ERROR] :: init worker by `searcher_server_single.cfg' error.
+[2019-03-03 09:03:13] [Server.cpp:344:start()] [INFO] :: startting server(0x1e98440) by `searcher_server_single.cfg'...
+[2019-03-03 09:03:13] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 09:03:13] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 09:03:13] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 09:03:13] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 09:03:13] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 09:03:13] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 09:03:13] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 09:03:13] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 09:03:13] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 09:03:13] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 09:03:13] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 09:03:13] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 09:03:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=16, use time=0
+[2019-03-03 09:03:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 09:03:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 09:03:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 09:03:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 09:03:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 09:03:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 09:03:13] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 09:03:13] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 09:03:13] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 09:03:13] [IndexIncManager.cpp:208:open()] [INFO] :: sync flag is false, release old share memory!
+[2019-03-03 09:03:13] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 09:03:13] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 09:03:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 09:03:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 09:03:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 09:03:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 09:03:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 09:03:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 09:03:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 09:03:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 09:03:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 09:03:13] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 09:03:13] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 09:03:13] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 09:03:13] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 09:03:13] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 09:03:13] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 09:03:13] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 09:03:13] [SearcherServer.cpp:612:initilize()] [ERROR] :: update config path is null
+[2019-03-03 09:03:13] [detail.cc:333:load_di_index()] [INFO] :: 5 docs in table.
+
+[2019-03-03 09:03:13] [di_postprocessor_manager.cc:75:di_postprocessor_manager_init()] [INFO] :: put /root/kingsobin/detail_plugin//libdi_online_postprocessor.so.0.0.0 in di_postprocessor_manager success!
+[2019-03-03 09:03:13] [di_postprocessor_manager.cc:88:di_postprocessor_manager_init()] [INFO] :: put default_postprocessor in di_postprocessor_manager success!
+[2019-03-03 09:03:13] [Server.cpp:449:start()] [INFO] :: startting work threads[15] and dispatcher...
+[2019-03-03 09:03:13] [Server.cpp:461:start()] [INFO] :: startting services...
+[2019-03-03 09:03:13] [Server.cpp:493:start()] [INFO] :: startting service[http::7722], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 09:03:13] [Server.cpp:493:start()] [INFO] :: startting service[tcp::7711], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 09:03:13] [Server.cpp:513:start()] [INFO] :: 2 services startted.
+[2019-03-03 09:03:13] [Server.cpp:516:start()] [INFO] :: initializing clustermap client...
+[2019-03-03 09:03:13] [CMTree.cpp:1941:travelTree()] [INFO] :: <clustermap>
+[2019-03-03 09:03:13] [CMTree.cpp:1941:travelTree()] [INFO] :: <m1>
+[2019-03-03 09:03:13] [CMTree.cpp:1941:travelTree()] [INFO] :: <c1>
+[2019-03-03 09:03:13] [CMTree.cpp:1947:travelTree()] [INFO] :: </c1>
+[2019-03-03 09:03:13] [CMTree.cpp:1947:travelTree()] [INFO] :: </m1>
+[2019-03-03 09:03:13] [CMTree.cpp:1947:travelTree()] [INFO] :: </clustermap>
+[2019-03-03 09:03:13] [CMTree.cpp:1617:travelTree()] [INFO] :: <c1>
+[2019-03-03 09:03:13] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=1 relationid=0, ip=127.0.0.1, port=7711 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 09:03:13] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=0 relationid=0, ip=127.0.0.1, port=6611 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 09:03:13] [CMTree.cpp:1617:travelTree()] [INFO] :: <m1>
+[2019-03-03 09:03:13] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=2 relationid=1, ip=127.0.0.1, port=8822 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 09:03:13] [Server.cpp:269:initCMClient()] [INFO] :: Initialize clulstermap client succeed.
+[2019-03-03 09:03:13] [Server.cpp:526:start()] [INFO] :: initialized clustermap client.
+[2019-03-03 09:03:13] [Server.cpp:530:start()] [INFO] :: startting ANET...
+[2019-03-03 09:03:13] [Server.cpp:546:start()] [INFO] :: register clustermap client success.
+[2019-03-03 09:03:13] [Server.cpp:570:start()] [INFO] :: server(0x1e98440) has been startted!
+[2019-03-03 09:04:01] [searcher/QueryParser.cpp:952:_qp_query_info_parse()] [INFO] :: tree->leaf_count==0, return!
+[2019-03-03 09:04:01] [searcher/QueryParser.cpp:1026:doParse()] [INFO] :: _qp_query_info_parse error, return!
+[2019-03-03 09:04:01] [SearcherServer.cpp:236:run()] [WARN] :: SEARCHER: queryparser doParse function error. query is a?search=x=1#filter=x=1#statistic=x=1#sort=x=1#other=x=1
+[2019-03-03 09:05:39] [blender/QueryParameterClassifier.cpp:71:doQuerySplit()] [WARN] :: QUERYPARSER: can't find query prefix, invalid query format.
+[2019-03-03 09:05:39] [blender/QueryParameterClassifier.cpp:42:doProcess()] [WARN] :: QUERYPARSER: do query spliting failed.
+[2019-03-03 09:05:39] [blender/QueryRewriter.cpp:366:doRewrite()] [WARN] :: QUERYPARSER: do query classify failed.
+[2019-03-03 09:05:39] [SearcherServer.cpp:221:run()] [WARN] :: qrewriter.doRewrite function error. query is auction?
+[2019-03-03 09:16:39] [Server.cpp:668:stop()] [INFO] :: server(0x1e98440) has been stopped.
+[2019-03-03 09:16:54] [Server.cpp:344:start()] [INFO] :: startting server(0x3104440) by `searcher_server_single.cfg'...
+[2019-03-03 09:16:54] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 09:16:54] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 09:16:54] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 09:16:54] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 09:16:54] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 09:16:54] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 09:16:54] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 09:16:54] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 09:16:54] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 09:16:54] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 09:16:54] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 09:16:54] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 09:16:54] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=16, use time=0
+[2019-03-03 09:16:54] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 09:16:54] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 09:16:54] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 09:16:54] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 09:16:54] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 09:16:54] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 09:16:54] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 09:16:54] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 09:16:54] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 09:16:54] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 09:16:54] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 09:16:54] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 09:16:54] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 09:16:54] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 09:16:54] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 09:16:54] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 09:16:54] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 09:16:54] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 09:16:54] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 09:16:54] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 09:16:54] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 09:16:54] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 09:16:54] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 09:16:54] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 09:16:54] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 09:16:54] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 09:16:54] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 09:16:54] [SearcherServer.cpp:612:initilize()] [ERROR] :: update config path is null
+[2019-03-03 09:16:54] [detail.cc:333:load_di_index()] [INFO] :: 5 docs in table.
+
+[2019-03-03 09:16:54] [di_postprocessor_manager.cc:75:di_postprocessor_manager_init()] [INFO] :: put /root/kingsobin/detail_plugin//libdi_online_postprocessor.so.0.0.0 in di_postprocessor_manager success!
+[2019-03-03 09:16:54] [di_postprocessor_manager.cc:88:di_postprocessor_manager_init()] [INFO] :: put default_postprocessor in di_postprocessor_manager success!
+[2019-03-03 09:16:54] [Server.cpp:449:start()] [INFO] :: startting work threads[15] and dispatcher...
+[2019-03-03 09:16:54] [Server.cpp:461:start()] [INFO] :: startting services...
+[2019-03-03 09:16:54] [Server.cpp:493:start()] [INFO] :: startting service[http::7722], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 09:16:54] [Server.cpp:493:start()] [INFO] :: startting service[tcp::7711], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 09:16:54] [Server.cpp:513:start()] [INFO] :: 2 services startted.
+[2019-03-03 09:16:54] [Server.cpp:516:start()] [INFO] :: initializing clustermap client...
+[2019-03-03 09:16:54] [CMTree.cpp:1941:travelTree()] [INFO] :: <clustermap>
+[2019-03-03 09:16:54] [CMTree.cpp:1941:travelTree()] [INFO] :: <m1>
+[2019-03-03 09:16:54] [CMTree.cpp:1941:travelTree()] [INFO] :: <c1>
+[2019-03-03 09:16:54] [CMTree.cpp:1947:travelTree()] [INFO] :: </c1>
+[2019-03-03 09:16:54] [CMTree.cpp:1947:travelTree()] [INFO] :: </m1>
+[2019-03-03 09:16:54] [CMTree.cpp:1947:travelTree()] [INFO] :: </clustermap>
+[2019-03-03 09:16:54] [CMTree.cpp:1617:travelTree()] [INFO] :: <c1>
+[2019-03-03 09:16:54] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=1 relationid=0, ip=127.0.0.1, port=7711 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 09:16:54] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=0 relationid=0, ip=127.0.0.1, port=6611 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 09:16:54] [CMTree.cpp:1617:travelTree()] [INFO] :: <m1>
+[2019-03-03 09:16:54] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=2 relationid=1, ip=127.0.0.1, port=8822 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 09:16:54] [Server.cpp:269:initCMClient()] [INFO] :: Initialize clulstermap client succeed.
+[2019-03-03 09:16:54] [Server.cpp:526:start()] [INFO] :: initialized clustermap client.
+[2019-03-03 09:16:54] [Server.cpp:530:start()] [INFO] :: startting ANET...
+[2019-03-03 09:16:54] [Server.cpp:546:start()] [INFO] :: register clustermap client success.
+[2019-03-03 09:16:54] [Server.cpp:570:start()] [INFO] :: server(0x3104440) has been startted!
+[2019-03-03 10:03:20] [Server.cpp:668:stop()] [INFO] :: server(0x3104440) has been stopped.
+[2019-03-03 10:03:24] [Server.cpp:344:start()] [INFO] :: startting server(0x1c6c440) by `searcher_server_single.cfg'...
+[2019-03-03 10:03:24] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 10:03:24] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 10:03:24] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 10:03:24] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 10:03:24] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 10:03:24] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 10:03:24] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 10:03:24] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 10:03:24] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 10:03:24] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 10:03:24] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 10:03:24] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 10:03:24] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=16, use time=0
+[2019-03-03 10:03:24] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 10:03:24] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 10:03:24] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 10:03:24] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 10:03:24] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 10:03:24] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 10:03:24] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 10:03:24] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 10:03:24] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 10:03:24] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 10:03:24] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 10:03:24] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 10:03:24] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 10:03:24] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 10:03:24] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 10:03:24] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 10:03:24] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 10:03:24] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 10:03:24] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 10:03:24] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 10:03:24] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 10:03:24] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 10:03:24] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 10:03:24] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 10:03:24] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 10:03:24] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 10:03:24] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 10:03:24] [SearcherServer.cpp:612:initilize()] [ERROR] :: update config path is null
+[2019-03-03 10:03:25] [detail.cc:333:load_di_index()] [INFO] :: 5 docs in table.
+
+[2019-03-03 10:03:25] [di_postprocessor_manager.cc:75:di_postprocessor_manager_init()] [INFO] :: put /root/kingsobin/detail_plugin//libdi_online_postprocessor.so.0.0.0 in di_postprocessor_manager success!
+[2019-03-03 10:03:25] [di_postprocessor_manager.cc:88:di_postprocessor_manager_init()] [INFO] :: put default_postprocessor in di_postprocessor_manager success!
+[2019-03-03 10:03:25] [Server.cpp:449:start()] [INFO] :: startting work threads[15] and dispatcher...
+[2019-03-03 10:03:25] [Server.cpp:461:start()] [INFO] :: startting services...
+[2019-03-03 10:03:25] [Server.cpp:493:start()] [INFO] :: startting service[http::7722], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 10:03:25] [Server.cpp:493:start()] [INFO] :: startting service[tcp::7711], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 10:03:25] [Server.cpp:513:start()] [INFO] :: 2 services startted.
+[2019-03-03 10:03:25] [Server.cpp:516:start()] [INFO] :: initializing clustermap client...
+[2019-03-03 10:03:25] [CMTree.cpp:1941:travelTree()] [INFO] :: <clustermap>
+[2019-03-03 10:03:25] [CMTree.cpp:1941:travelTree()] [INFO] :: <m1>
+[2019-03-03 10:03:25] [CMTree.cpp:1941:travelTree()] [INFO] :: <c1>
+[2019-03-03 10:03:25] [CMTree.cpp:1947:travelTree()] [INFO] :: </c1>
+[2019-03-03 10:03:25] [CMTree.cpp:1947:travelTree()] [INFO] :: </m1>
+[2019-03-03 10:03:25] [CMTree.cpp:1947:travelTree()] [INFO] :: </clustermap>
+[2019-03-03 10:03:25] [CMTree.cpp:1617:travelTree()] [INFO] :: <c1>
+[2019-03-03 10:03:25] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=1 relationid=0, ip=127.0.0.1, port=7711 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 10:03:25] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=0 relationid=0, ip=127.0.0.1, port=6611 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 10:03:25] [CMTree.cpp:1617:travelTree()] [INFO] :: <m1>
+[2019-03-03 10:03:25] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=2 relationid=1, ip=127.0.0.1, port=8822 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 10:03:25] [Server.cpp:269:initCMClient()] [INFO] :: Initialize clulstermap client succeed.
+[2019-03-03 10:03:25] [Server.cpp:526:start()] [INFO] :: initialized clustermap client.
+[2019-03-03 10:03:25] [Server.cpp:530:start()] [INFO] :: startting ANET...
+[2019-03-03 10:03:25] [Server.cpp:546:start()] [INFO] :: register clustermap client success.
+[2019-03-03 10:03:25] [Server.cpp:570:start()] [INFO] :: server(0x1c6c440) has been startted!
+[2019-03-03 10:07:38] [SearcherServer.cpp:232:run()] [WARN] :: SEARCHER: qp.doParse function over time. query is auction?search=nid=111
+[2019-03-03 10:14:00] [SearcherServer.cpp:249:run()] [WARN] :: SEARCHER: is.doQuery function over time. query is auction?search=nid=111
+[2019-03-03 10:14:20] [SearcherServer.cpp:249:run()] [WARN] :: SEARCHER: is.doQuery function over time. query is auction?search=nid=111
+[2019-03-03 10:15:57] [SearcherServer.cpp:249:run()] [WARN] :: SEARCHER: is.doQuery function over time. query is auction?search=nid=111&f=2&c=3#filter=f=2&c=3#statistic=f=2&c=3#sort=f=2&c=3#other=f=2&c=3
+[2019-03-03 10:51:43] [SearcherServer.cpp:278:run()] [WARN] :: SEARCHER: sort.doProcess function over time. query is auction?search=nid=111&f=2&c=3#filter=f=2&c=3#statistic=f=2&c=3#sort=f=2&c=3#other=f=2&c=3
+[2019-03-03 11:09:23] [SearcherServer.cpp:278:run()] [WARN] :: SEARCHER: sort.doProcess function over time. query is auction?search=nid=111&f=2&c=3#filter=f=2&c=3#statistic=f=2&c=3#sort=f=2&c=3#other=f=2&c=3
+[2019-03-03 11:16:01] [SearcherServer.cpp:278:run()] [WARN] :: SEARCHER: sort.doProcess function over time. query is auction?search=nid=111&f=2&c=3#filter=f=2&c=3#statistic=f=2&c=3#sort=f=2&c=3#other=f=2&c=3
+[2019-03-03 11:20:24] [Server.cpp:668:stop()] [INFO] :: server(0x1c6c440) has been stopped.
+[2019-03-03 11:20:26] [Server.cpp:344:start()] [INFO] :: startting server(0x1963440) by `searcher_server_single.cfg'...
+[2019-03-03 11:20:26] [Server.cpp:383:start()] [INFO] :: setting parallel limit as 400.
+[2019-03-03 11:20:26] [Server.cpp:403:start()] [INFO] :: startting cache handle...
+[2019-03-03 11:20:26] [Server.cpp:409:start()] [INFO] :: set no cache.
+[2019-03-03 11:20:26] [Server.cpp:441:start()] [INFO] :: initilizing worker factory by `searcher_server_single.cfg'...
+[2019-03-03 11:20:26] [IndexLib.cpp:60:initProfile()] [INFO] :: begin to load profile! path:rundata/profile
+[2019-03-03 11:20:26] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/profile_group_0.seg_0,33554432
+[2019-03-03 11:20:26] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_2.encode_cnt,1048576
+[2019-03-03 11:20:26] [ProfileMMapFile.cpp:239:preload()] [INFO] :: IndexLib profile preload:rundata/profile/field_7.encode_cnt,1048576
+[2019-03-03 11:20:26] [IndexLib.cpp:68:initProfile()] [INFO] :: load profile success!
+[2019-03-03 11:20:26] [IndexLib.cpp:99:initIdDict()] [INFO] :: begin to load nid->docId dict and deleteMap! path:rundata/dict
+[2019-03-03 11:20:27] [IndexLib.cpp:108:initIdDict()] [INFO] :: load nid->docId dict and deleteMap success!
+[2019-03-03 11:20:27] [IndexLib.cpp:138:initFullIndex()] [INFO] :: begin to load full index! path:rundata/index
+[2019-03-03 11:20:27] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.index.0, len=16, use time=0
+[2019-03-03 11:20:27] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_1.bitmap_index, len=24, use time=0
+[2019-03-03 11:20:27] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.index.0, len=28, use time=0
+[2019-03-03 11:20:27] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_2.bitmap_index, len=24, use time=0
+[2019-03-03 11:20:27] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.index.0, len=16, use time=0
+[2019-03-03 11:20:27] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_3.bitmap_index, len=16, use time=0
+[2019-03-03 11:20:27] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/nid.index.0, len=40, use time=0
+[2019-03-03 11:20:27] [MMapFile.h:66:preLoad()] [INFO] :: read rundata/index/field_5.index.0, len=32, use time=0
+[2019-03-03 11:20:27] [IndexLib.cpp:146:initFullIndex()] [INFO] :: load full index success!
+[2019-03-03 11:20:27] [IndexLib.cpp:214:initIncIndex()] [INFO] :: begin to load inc index! path:rundata/index
+[2019-03-03 11:20:27] [IndexIncManager.cpp:222:open()] [INFO] :: create mempool ok
+[2019-03-03 11:20:27] [IndexIncManager.cpp:243:open()] [INFO] :: incskipcnt=128, bitmapsize=1048568, maxdocNum=8388544
+[2019-03-03 11:20:27] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.term: No such file or directory
+[2019-03-03 11:20:27] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_1.inc.bitmap_term: No such file or directory
+[2019-03-03 11:20:27] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.term: No such file or directory
+[2019-03-03 11:20:27] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_2.inc.bitmap_term: No such file or directory
+[2019-03-03 11:20:27] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.term: No such file or directory
+[2019-03-03 11:20:27] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_3.inc.bitmap_term: No such file or directory
+[2019-03-03 11:20:27] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.term: No such file or directory
+[2019-03-03 11:20:27] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/nid.inc.bitmap_term: No such file or directory
+[2019-03-03 11:20:27] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.term: No such file or directory
+[2019-03-03 11:20:27] [idx_dict.cpp:427:idx_dict_load()] [INFO] :: open file rundata/index/field_5.inc.bitmap_term: No such file or directory
+[2019-03-03 11:20:27] [IndexLib.cpp:225:initIncIndex()] [INFO] :: load inc index success!
+[2019-03-03 11:20:27] [IndexLib.cpp:257:initProvCity()] [INFO] :: begin to load provcity! path:etc/provcity.txt
+[2019-03-03 11:20:27] [IndexLib.cpp:265:initProvCity()] [INFO] :: load provcity success!
+[2019-03-03 11:20:27] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument ksq isn't in index, discard
+[2019-03-03 11:20:27] [searcher/QueryParser.cpp:323:init()] [INFO] :: argument phrase isn't in index, discard
+[2019-03-03 11:20:27] [SearcherServer.cpp:671:get_outfmt_type()] [INFO] :: default outfmt is xml for HTTP server.
+[2019-03-03 11:20:27] [SearcherServer.cpp:612:initilize()] [ERROR] :: update config path is null
+[2019-03-03 11:20:27] [detail.cc:333:load_di_index()] [INFO] :: 5 docs in table.
+
+[2019-03-03 11:20:27] [di_postprocessor_manager.cc:75:di_postprocessor_manager_init()] [INFO] :: put /root/kingsobin/detail_plugin//libdi_online_postprocessor.so.0.0.0 in di_postprocessor_manager success!
+[2019-03-03 11:20:27] [di_postprocessor_manager.cc:88:di_postprocessor_manager_init()] [INFO] :: put default_postprocessor in di_postprocessor_manager success!
+[2019-03-03 11:20:27] [Server.cpp:449:start()] [INFO] :: startting work threads[15] and dispatcher...
+[2019-03-03 11:20:27] [Server.cpp:461:start()] [INFO] :: startting services...
+[2019-03-03 11:20:27] [Server.cpp:493:start()] [INFO] :: startting service[http::7722], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 11:20:27] [Server.cpp:493:start()] [INFO] :: startting service[tcp::7711], maxrequest=0, maxoverflow=0 ...
+[2019-03-03 11:20:27] [Server.cpp:513:start()] [INFO] :: 2 services startted.
+[2019-03-03 11:20:27] [Server.cpp:516:start()] [INFO] :: initializing clustermap client...
+[2019-03-03 11:20:27] [CMTree.cpp:1941:travelTree()] [INFO] :: <clustermap>
+[2019-03-03 11:20:27] [CMTree.cpp:1941:travelTree()] [INFO] :: <m1>
+[2019-03-03 11:20:27] [CMTree.cpp:1941:travelTree()] [INFO] :: <c1>
+[2019-03-03 11:20:27] [CMTree.cpp:1947:travelTree()] [INFO] :: </c1>
+[2019-03-03 11:20:27] [CMTree.cpp:1947:travelTree()] [INFO] :: </m1>
+[2019-03-03 11:20:27] [CMTree.cpp:1947:travelTree()] [INFO] :: </clustermap>
+[2019-03-03 11:20:27] [CMTree.cpp:1617:travelTree()] [INFO] :: <c1>
+[2019-03-03 11:20:27] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=1 relationid=0, ip=127.0.0.1, port=7711 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 11:20:27] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=0 relationid=0, ip=127.0.0.1, port=6611 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 11:20:27] [CMTree.cpp:1617:travelTree()] [INFO] :: <m1>
+[2019-03-03 11:20:27] [CMTree.cpp:1623:travelTree()] [INFO] :: <nodeid=2 relationid=1, ip=127.0.0.1, port=8822 limit(cpu:268435455,load:268435455,io:268435455,qps:0,latency:0,max=0,hold=268435455>
+[2019-03-03 11:20:27] [Server.cpp:269:initCMClient()] [INFO] :: Initialize clulstermap client succeed.
+[2019-03-03 11:20:27] [Server.cpp:526:start()] [INFO] :: initialized clustermap client.
+[2019-03-03 11:20:27] [Server.cpp:530:start()] [INFO] :: startting ANET...
+[2019-03-03 11:20:27] [Server.cpp:546:start()] [INFO] :: register clustermap client success.
+[2019-03-03 11:20:27] [Server.cpp:570:start()] [INFO] :: server(0x1963440) has been startted!
+[2019-03-03 11:24:58] [SearcherServer.cpp:249:run()] [WARN] :: SEARCHER: is.doQuery function over time. query is auction?search=nid=111#sort=n=3#other=n=3
+[2019-03-03 11:25:16] [Server.cpp:668:stop()] [INFO] :: server(0x1963440) has been stopped.
