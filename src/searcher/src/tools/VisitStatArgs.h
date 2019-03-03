@@ -4,6 +4,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 
 #define MAX_STAT_COL_NUM 128  // 集群最大列数
 #define MAX_IP_LEN       16   // ip长度

@@ -63,7 +63,7 @@ int XmlReader::init(const char* filename, bool needUtf8)
     _docCount = 0;
 
     if(filename) {
-        char* name = strrchr(filename, '/');
+        const char* name = strrchr(filename, '/');
         if(NULL == name) {
             name = (char*)filename;
         } else {

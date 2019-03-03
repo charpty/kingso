@@ -1,6 +1,9 @@
 #include <algorithm>
 #include <math.h>
 #include "IndexCompression.h"
+#include <cstdint>
+#include <stdio.h>
+#include <cstring>
 
 namespace index_lib {
 

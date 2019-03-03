@@ -1,5 +1,5 @@
 #!/bin/sh
-source install_config.sh
+source ./install_config.sh
 if [ $? != 0 ]; then
     echo "Can not source scm_config.sh";
     exit 255;
@@ -67,7 +67,7 @@ if test -f autogen.sh ; then
 fi
 echo "Configuring $module_name ..."
 echo "Configuring $module_name ..." >>$LOG_FILE
-sh configure CFLAGS="-g -O2 -fPIC" CXXFLAGS="-g -O2 -fPIC" $WITHS --prefix=$DST_PATH/ 1>>$LOG_FILE 2>>$ERROR_LOG_FILE
+sh configure CFLAGS="-g -O2 -fPIC" CXXFLAGS="-g -O2 -fPIC -std=c++0x" $WITHS --prefix=$DST_PATH/ 1>>$LOG_FILE 2>>$ERROR_LOG_FILE
 if [ $? -ne 0 ]; then 
     echo "Call configure failed. MODULE:$module_name"
     echo "Call configure failed. MODULE:$module_name" >>$ERROR_LOG_FILE

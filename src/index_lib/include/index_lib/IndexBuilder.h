@@ -14,6 +14,8 @@
 #include "commdef/commdef.h"
 #include "util/HashMap.hpp"
 #include "index_lib/IndexInfoManager.h"
+#include <limits.h>
+
 
 namespace index_lib
 {

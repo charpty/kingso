@@ -16,6 +16,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <errno.h>
+#include <limits.h>
 #define pidFileTMPL "/tmp/.%s_%s_pidfile"
 
 FRAMEWORK_BEGIN;

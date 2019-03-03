@@ -30,16 +30,15 @@ class KSQuery
             }
             _heap = heap;
 
-            char *p_last_mark = NULL;
-            p_last_mark = rindex(query, '?');
+            const char* p_last_mark = rindex(query, '?');
             int prefix_len = 0;
             if(p_last_mark){
                 _prefix = ks_strndup(query, p_last_mark-query);
             }
 
-            char *p = p_last_mark?(p_last_mark+1):(char*)query;
-            char *pend = NULL;
-            char *p_eq = NULL;
+            const char *p = p_last_mark?(p_last_mark+1):(char*)query;
+            const char *pend = NULL;
+            const char *p_eq = NULL;
             int finish = 0;
             char *name = NULL;
             char *value = NULL;

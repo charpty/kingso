@@ -3,6 +3,7 @@
 #include "util/Log.h"
 #include <dirent.h>
 #include <dlfcn.h>
+#include <cstring>
 
 extern int di_postprocessor_manager_init(di_postprocessor_manager_t* manager, const char* plugin_path)
 {

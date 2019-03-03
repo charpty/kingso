@@ -18,6 +18,7 @@
 #define FILE_FUNC_H
 
 #include "common.h"
+#include <sys/stat.h>
 
 #ifdef __cplusplus
 extern "C" {

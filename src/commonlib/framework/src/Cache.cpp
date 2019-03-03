@@ -1,5 +1,6 @@
 #include "framework/Cache.h"
 #include "framework/Compressor.h"
+
 #define KEY_COMP_LIMIT 50
 
 FRAMEWORK_BEGIN;
@@ -41,6 +42,7 @@ FRAMEWORK_END;
 #include "util/ScopedLock.h"
 #include <stdio.h>
 #include <math.h>
+#include <bits/stdc++.h>
 
 FRAMEWORK_BEGIN;
 

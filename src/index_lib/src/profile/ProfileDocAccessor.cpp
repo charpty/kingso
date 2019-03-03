@@ -643,7 +643,7 @@ int ProfileDocAccessor::setFieldValue(uint32_t doc_id, const ProfileField *field
             {
                 if(getFieldMultiValNum(fieldPtr) == 1) {
                     KV32 kv;
-                    char * delim = strchr(valueStr, PROFILE_KV_DELIM);
+                    const char * delim = strchr(valueStr, PROFILE_KV_DELIM);
                     if (delim == NULL) {
                         kv.key = INVALID_INT32;
                         kv.value = INVALID_INT32;

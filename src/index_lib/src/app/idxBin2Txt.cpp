@@ -1,5 +1,6 @@
 #include "index_lib/IndexLib.h"
 #include "index_lib/IndexBuilder.h"
+#include <limits.h>
 
 using namespace index_lib;
 

@@ -515,7 +515,7 @@ bool setDefaultValue(PF_DATA_TYPE type, index_lib::EmptyValue &value, const char
 
             case DT_KV32:
                 {
-                    char * delim = strchr(str, ':');
+                    const char * delim = strchr(str, ':');
                     index_lib::KV32 kv;
                     if (delim == NULL) {
                         kv.key   = INVALID_INT32;

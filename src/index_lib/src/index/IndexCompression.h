@@ -1,6 +1,10 @@
 #ifndef INDEX_COMPRESSION_H
 #define INDEX_COMPRESSION_H
 
+#include <stdlib.h>
+#include <cstdint>
+#include <cstring>
+
 #define P4D_BLOCK_SIZE 127
 #define BOUND_RATIO 0.9
 #define EXCEPTION_BYTE 4

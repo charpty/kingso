@@ -7,6 +7,8 @@
 #include "analysis/MetaCharAnalyzer.h"
 #include "analysis/TokenStream.h"
 #include "analysis/Token.h"
+#include <limits.h>
+#include <stdlib.h>
 
 #define TOKENIZER_TYPE_TAOBAOCN "TAOBAO_CHN"
 #define TOKENIZER_TYPE_METACHAR "METACHAR"

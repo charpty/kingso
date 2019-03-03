@@ -98,7 +98,7 @@ private:
     search::Search _search;
     SORT::SearchSortFacade _sort;
 
-private:
+public:
     int _deal_state;    // 状态
     int _vist_state;    // 状态
     

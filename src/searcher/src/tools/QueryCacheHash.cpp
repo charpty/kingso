@@ -155,11 +155,11 @@ int QueryCacheHash::parseQuery(const char *query, char *queryBuf, ParamPair *par
     util::HashMap<const char *, bool> keyList;
     paramNum = 0;
 
-    char * pSegment = NULL;
-    char * pSegEnd  = NULL;
-    char * pKey     = NULL;
-    char * pValue   = NULL;
-    char * pKVEnd   = NULL;
+    const char * pSegment = NULL;
+    const char * pSegEnd  = NULL;
+    const char * pKey     = NULL;
+    const char * pValue   = NULL;
+    const char * pKVEnd   = NULL;
     int    len      = 0;
     int    bufLen   = 0;
 
@@ -199,7 +199,8 @@ int QueryCacheHash::parseQuery(const char *query, char *queryBuf, ParamPair *par
             pKey   = pKVEnd + 1;
             pKVEnd = index(pKey, '&');
             if (pKVEnd != NULL) {
-                *pKVEnd = '\0';
+                *(queryBuf + (pKVEnd-queryBuf)) = '\0';
+                // *pKVEnd = '\0';
             }
 
             if (unlikely(*pKey == '\0')) {
@@ -210,7 +211,8 @@ int QueryCacheHash::parseQuery(const char *query, char *queryBuf, ParamPair *par
                 //TWARN("QueryCacheHash parse Query error, format error[key/value] no equal mark found!");
                 return -1;
             }
-            *pValue = '\0';
+            *(queryBuf + (pValue-queryBuf)) = '\0';
+            // *pValue = '\0';
             pValue++;
 
             if (_ruleList.find(pKey) == _ruleList.end() && keyList.find(pKey) == keyList.end()) {

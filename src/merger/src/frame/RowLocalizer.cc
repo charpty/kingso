@@ -182,7 +182,7 @@ namespace is_assist {
     }
 
     uint32_t ParamRowLocalizer::getLocatingSignal(const char * query, uint32_t size) {
-        char * p, *end;
+        const char * p, *end;
         std::string start;
         uint32_t len;
         if(!query || size <= _param.length() || _param.length() == 0) return 0;
@@ -330,11 +330,11 @@ namespace is_assist {
         util::HashMap<const char *, bool> keyList;
         paramNum = 0;
         
-        char * pSegment = NULL;
-        char * pSegEnd  = NULL;
-        char * pKey     = NULL;
-        char * pValue   = NULL;
-        char * pKVEnd   = NULL;
+        const char * pSegment = NULL;
+        const char * pSegEnd  = NULL;
+        const char * pKey     = NULL;
+        const char * pValue   = NULL;
+        const char * pKVEnd   = NULL;
         int    len      = 0;
         int    bufLen   = 0;
         
@@ -368,7 +368,8 @@ namespace is_assist {
                 pKey   = pKVEnd + 1;
                 pKVEnd = index(pKey, '&');
                 if (pKVEnd != NULL) {
-                    *pKVEnd = '\0';
+		    *(queryBuf + (pKVEnd-queryBuf)) = '\0';
+                    // *pKVEnd = '\0';
                 }
         
                 if (unlikely(*pKey == '\0')) {
@@ -378,7 +379,8 @@ namespace is_assist {
                 if (unlikely((pValue = index(pKey, '=')) == NULL)) {
                     return -1;
                 }
-                *pValue = '\0';
+		*(queryBuf + (pValue-queryBuf)) = '\0';
+                // *pValue = '\0';
                 pValue++;
         
                 if (_ruleList.find(pKey) == _ruleList.end() && keyList.find(pKey) == keyList.end()) {

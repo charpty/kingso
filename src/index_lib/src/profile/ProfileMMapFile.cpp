@@ -1,5 +1,6 @@
 #include "index_lib/ProfileMMapFile.h"
 #include "index_lib/IndexConfigParams.h"
+#include <sys/stat.h>
 
 namespace index_lib
 {

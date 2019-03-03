@@ -1,4 +1,6 @@
 #include "SortQuery.h"
+#include <bits/stdc++.h> 
+
 namespace sort_framework
 {
 

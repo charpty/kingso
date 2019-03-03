@@ -20,8 +20,7 @@ namespace index_lib
 
 static KV32 strtokv32(const char * str) {
     KV32 kv;
-    char *pdelim = NULL;
-    pdelim = strchr(str, PROFILE_KV_DELIM);
+    const char* pdelim = strchr(str, PROFILE_KV_DELIM);
     if (unlikely( pdelim == NULL )) {
         TWARN("INDEXLIB: Profile strtokv32 error, value [%s] not fit format!", str);
         kv.key   = INVALID_INT32;

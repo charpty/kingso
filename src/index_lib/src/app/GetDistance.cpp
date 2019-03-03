@@ -27,11 +27,9 @@ int main(int argc, char* argv[])
     dstLoc = argv[2];
 
     float srclat, srclng, dstlat, dstlng = 0.0f;
-    char * srcDelim = NULL;
-    char * dstDelim = NULL;
 
-    srcDelim = strchr(srcLoc, ':');
-    dstDelim = strchr(dstLoc, ':');
+    const char* srcDelim = strchr(srcLoc, ':');
+    const char* dstDelim = strchr(dstLoc, ':');
 
     if (srcDelim == NULL || dstDelim == NULL) {
         show_usage(argv[0]);
